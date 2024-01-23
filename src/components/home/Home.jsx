@@ -1,14 +1,14 @@
 import Two from './two.png';
-import Im from './image1.png';
-import Image2 from './image2.png';
-import Image3 from './image3.png';
-import Image4 from './image4.png';
-import Ellipse1 from './Ellipse1.png';
-import Ellipse2 from './Ellipse2.png';
-import Ellipse3 from './Ellipse3.png';
-import Ellipse4 from './Ellipse4.png';
-import Ellipse5 from './Ellipse5.png';
-import Ellipse6 from './Ellipse6.png';
+import Im from './imagee.png';
+import Image2 from './imageee.png';
+import Image3 from './imageeee.png';
+import Image4 from './imageeeee.png';
+import Ellipse1 from './Ellipse.png';
+import Ellipse2 from './Ellipsee.png';
+import Ellipse3 from './Ellipseee.png';
+import Ellipse4 from './Ellipseeee.png';
+import Ellipse5 from './Ellipseeeee.png';
+import Ellipse6 from './Ellipseeeeee.png';
 
 function Home() {
   return (
