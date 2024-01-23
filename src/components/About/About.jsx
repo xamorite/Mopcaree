@@ -4,7 +4,7 @@ import Gb from './Gb.png';
 function About() {
   return (
     <div >
-      <div className="text-center my-[10vh]">
+      <div className="text-center my-[10vh] w-[90vw]">
         <header className="text-[#3379C1] font-semi text-[4vw]  md:text-[1.5vw] ">About us</header><br />
         <h1 className="  font-bold text-[7vw] md:text-[3vw]">About Mopcare</h1>
         <p className="text-[#667085] text-[6vw] md:text-[1.5vw]">Learn more about what we are doing and the vision behind the organization.</p>

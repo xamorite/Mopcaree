@@ -3,19 +3,23 @@ import Gmail from './email.png'
 
 function Contact() {
   return (
-    <div className="mx-auto md:w-[80vw] p-12 ">
+    <div className="mx-auto md:w-[80vw] ">
       <div className="flex justify-between mx-auto gap-10">
         <div className='text-center'>
        <h3 className="text-[#3379C1] font-bold md:text-[1.3vw]">Contact Us</h3>
        <h1 className="font-bold md:text-[3vw] text-[4.5vw]">Get in touch </h1>
        <p className="text-[#667085] md:text-[1.5vw]">Our friendly team would love to hear from you.</p>
-       <div className="form my-[8vh] flex flex-col text-start justify-between gap-6 ">
-         <div className="flex justify-between gap-6 ">
-                <div>
+
+
+
+
+       <div className="form my-[8vh] flex flex-col text-start justify-between gap-6 w-[80vw] mx-auto">
+         <div className="grid grid-cols-6 justify-between md:gap-6 gap-3 ">
+                <div className=' col-span-6'>
                     <p>First name</p>
                     <input type="text" placeholder="First name " className="p-3 border-[#667085] border-[1px] rounded-md" />
                 </div>
-                <div>
+                <div className='col-span-7'>
                     <p>Last name</p>
                     <input type="text" placeholder="Last name " className="p-3 border-[#667085] border-[1px] rounded-md" />
                 </div>
@@ -37,8 +41,11 @@ function Contact() {
                     send message
                 </button>
        </div>
+
+
+       
        </div>
-       <div>
+       <div className='hidden'>
              <img src={Granny} />
        </div>
       </div>
