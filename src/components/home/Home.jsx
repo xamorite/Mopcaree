@@ -1,14 +1,14 @@
-import two from './assets/two.png';
-import im from './assets/image1.png';
-import image2 from './assets/image2.png';
-import image3 from './assets/image3.png';
-import image4 from './assets/image4.png';
-import Ellipse1 from './assets/Ellipse1.png';
-import Ellipse2 from './assets/Ellipse2.png';
-import Ellipse3 from './assets/Ellipse3.png';
-import Ellipse4 from './assets/Ellipse4.png';
-import Ellipse5 from './assets/Ellipse5.png';
-import Ellipse6 from './assets/Ellipse6.png';
+import Two from './two.png';
+import Im from './image1.png';
+import Image2 from './image2.png';
+import Image3 from './image3.png';
+import Image4 from './image4.png';
+import Ellipse1 from './Ellipse1.png';
+import Ellipse2 from './Ellipse2.png';
+import Ellipse3 from './Ellipse3.png';
+import Ellipse4 from './Ellipse4.png';
+import Ellipse5 from './Ellipse5.png';
+import Ellipse6 from './Ellipse6.png';
 
 function Home() {
   return (
@@ -60,7 +60,7 @@ function Home() {
 
 
        <div>
-        <img src={two} alt="two" /> 
+        <img src={Two} alt="two" /> 
         </div>
          
 
@@ -85,8 +85,8 @@ function Home() {
              </ul>
              </div>
              <div>
-              <div className='flex' ><img className='md:w-[250px] m-[10px]' src={im} alt="" /><img className='md:w-[270px] m-[10px] md:h-[270px] mt-auto' src={image2} alt="" /></div>
-              <div className='flex'><img className='md:w-[164px] m-[10px] md:h-[285px]' src={image3} alt="" /><img className='md:w-[356px] m-[10px]' src={image4} alt="" /></div>
+              <div className='flex' ><img className='md:w-[250px] m-[10px]' src={Im} alt="" /><img className='md:w-[270px] m-[10px] md:h-[270px] mt-auto' src={Image2} alt="" /></div>
+              <div className='flex'><img className='md:w-[164px] m-[10px] md:h-[285px]' src={Image3} alt="" /><img className='md:w-[356px] m-[10px]' src={Image4} alt="" /></div>
              {/* <img src={two} alt="two" /> */}
              </div>
          </div>

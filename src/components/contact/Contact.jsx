@@ -1,5 +1,5 @@
-import granny from './assets/granny.png'
-import email from './assets/email.png'
+import Granny from './granny.png'
+import Gmail from './email.png'
 
 function Contact() {
   return (
@@ -39,7 +39,7 @@ function Contact() {
        </div>
        </div>
        <div>
-             <img src={granny} />
+             <img src={Granny} />
        </div>
       </div>
       <div className='text-center'>
@@ -56,19 +56,19 @@ function Contact() {
 
       <div className='flex justify-between text-center mt-9'>
           <div>
-            <img src={email} className='w-[3vw] mx-auto' alt="" />
+            <img src={Gmail} className='w-[3vw] mx-auto' alt="" />
             <h4 className='font-bold'>Email</h4>
             <p className='text-[#667085]'>Our friendly team is here to talk</p>
             <p className='text-[#3379C1] font-bold'>mopcareteam@gmail.com</p>
           </div>
           <div>
-            <img src={email} className='w-[3vw] mx-auto' alt="" />
+            <img src={Gmail} className='w-[3vw] mx-auto' alt="" />
             <h4 className='font-bold'>Office</h4>
             <p className='text-[#667085]'>Come say hello at our office HQ.</p>
             <p className='text-[#3379C1] font-bold'>Kampala Shopping Complex,<br /> Itoku, Abeokuta, Ogun State.</p>
           </div>
           <div>
-            <img src={email} className='w-[3vw] mx-auto' alt="" />
+            <img src={Gmail} className='w-[3vw] mx-auto' alt="" />
             <h4 className='font-bold'>Phone</h4>
             <p className='text-[#667085]'>Mon-Fri from 8am to 5pm</p>
             <p className='text-[#3379C1] font-bold'>+(234) 803-437-5758</p>

@@ -1,4 +1,4 @@
-import Mop from './assets/Logo.svg';
+import Mop from './Logo.svg';
 
 function Footer() {
   return (

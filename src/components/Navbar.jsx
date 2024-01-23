@@ -1,7 +1,7 @@
-import Mop from './assets/Logo.svg';
-import setting from './assets/setting.png';
-import notification from './assets/notification.png';
-import profile from './assets/profile.png';
+import Mop from './Logo.svg';
+import setting from './setting.png';
+import notification from './notification.png';
+import profile from './profile.png';
 import {NavLink} from 'react-router-dom'
 
 function Navbar() {

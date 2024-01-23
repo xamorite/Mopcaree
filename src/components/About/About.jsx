@@ -1,5 +1,5 @@
-import two from './assets/two.png';
-import Gb from './assets/Gb.png';
+import Two from './two.png';
+import Gb from './Gb.png';
 
 function About() {
   return (
@@ -44,7 +44,7 @@ function About() {
 
 
        <div>
-        <img src={two} alt="two" /> 
+        <img src={Two} alt="two" /> 
         </div>
          
 
