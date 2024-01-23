@@ -11,7 +11,7 @@ function Navbar() {
 
   let Links = [
     { name: "Home", link: "/" },
-    { name: "Services", link: "./CaseStudies" },
+    { name: "Services", link: "./Service" },
     { name: "About", link: "./About" },
     { name: "Contact", link: "./Contact" },
     // { name: "Contact", link: "./Contact" },
@@ -42,8 +42,8 @@ function Navbar() {
                 </li>
               )
             }
-            <li className='px-5'>
-              <button className=' bg-sky-700 rounded-md'>My Account</button>
+            <li className='px-4'>
+              <button className=' bg-sky-700 rounded-md p-3'>My Account</button>
             </li>
 
               

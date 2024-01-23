@@ -11,31 +11,31 @@ function About() {
       </div>
       <div className='md:my-[20vh] flex flex-row-reverse justify-between md:h-[80vh] w-[82.5vw] mx-auto gap-x-[7vw]'>
        <div className='  md:w-[560px]'>
-        <p className='text-[#3379C1] md:text-[1vw] font-medium'>We’ve helped hundreds of elderly people</p>
+        <p className='text-[#3379C1] md:text-[1vw] font-medium text-[4vw]'>We’ve helped hundreds of elderly people</p>
         <ul>
           <li className='mb-[4vh]'>
-            <h2 className='font-semibold md:text-[3vw] text-[5.5vw]'>
+            <h2 className='font-semibold md:text-[3vw] text-[7vw]'>
             We’re only just getting started on our journey
             </h2>
           </li>
           <li className='mb-[4vh] md:flex justify-between w-[75%]'>
             <div>
-              <h1 className='text-[5vw] font-medium text-[#3379C1]'>21</h1><br />
-              <p className='text-[1.5vw] font-semibold text-[#101828]'>Programs held</p>
+              <h1 className='text-[8vw] font-medium text-[#3379C1]'>21</h1><br />
+              <p className='text-[4vw] md:text-[1.5vw] font-semibold text-[#101828]'>Programs held</p>
             </div>
             <div>
-              <h1 className='text-[5vw] font-medium text-[#3379C1]'>1,651</h1><br />
-              <p className='text-[1.5vw] font-semibold text-[#101828]'>Attendance so far</p>
+              <h1 className='text-[8vw] font-medium text-[#3379C1]'>1,651</h1><br />
+              <p className='text-[4vw] md:text-[1.5vw] font-semibold text-[#101828]'>Attendance so far</p>
             </div>
           </li>
           <li className='mb-[4vh] md:flex justify-between w-[75%]'>
             <div>
-              <h1 className='text-[5vw] font-medium text-[#3379C1]'>10k</h1><br />
-              <p className='text-[1.5vw] font-semibold text-[#101828]'>Consultations</p>
+              <h1 className='text-[8vw] font-medium text-[#3379C1]'>10k</h1><br />
+              <p className='text-[4vw] md:text-[1.5vw] font-semibold text-[#101828]'>Consultations</p>
             </div>
             <div>
-              <h1 className='text-[5vw] font-medium text-[#3379C1]'>200+</h1><br />
-              <p className='text-[1.5vw] font-semibold text-[#101828]'>Relief packages sent</p>
+              <h1 className='text-[8vw] font-medium text-[#3379C1]'>200+</h1><br />
+              <p className=' text-[4vw] md:text-[1.5vw] font-semibold text-[#101828]'>Relief packages sent</p>
             </div>
           </li>
         </ul>
@@ -84,15 +84,15 @@ function About() {
 
         <div className='md:flex justify-between mx-auto w-[80vw] md:w-[80vw] md:mt-[8vh]  md:h-[15vh] mt-[5vh]'>
          <div>
-            <h3 className='font-bold md:text-[1.5vw]'>Join our newsletter</h3>
+            <h3 className='font-bold md:text-[1.5vw] text-[5vw]'>Join our newsletter</h3>
             <br />
             <p className='text-[#667085]'>
                 Stay in touch with us to get latest news and special offers
             </p>
          </div>
-         <div className='my-[5vh]'>
-            <input type="text" placeholder='Enter your email' className=' border-2 p-3 md:w-[20vw] border-[#667085] rounded-md'/>
-             <button className='rounded-md bg-[#3379C1] text-white md:w-[8vw] p-3 mx-[2vw]'>
+         <div className='my-[5vh] '>
+            <input type="text" placeholder='Enter your email' className=' border-2 p-3 w-full md:w-[20vw] border-[#667085] rounded-md'/>
+             <button className='rounded-md bg-[#3379C1] text-white md:w-[8vw] w-full p-3 md:mx-[2vw] mt-[5vh]'>
                 Subscribe
             </button>
          </div>
