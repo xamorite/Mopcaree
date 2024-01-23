@@ -65,26 +65,26 @@ function Home() {
          
 
    </div>
-   <div className='md:my-[20vh] flex justify-between md:h-[80vh] w-[82.5vw] mx-auto'>
+   <div className='md:my-[20vh] flex justify-between md:h-[80vh] w-[80vw] text-center md:text-start md:w-[82.5vw] mx-auto'>
              <div className='md:w-[560px]'>
              <ul>
               <li  className='mb-[5vh]'>
                 <h2 className='font-bold text-[3vw]'>Our Vision</h2>
-               <p className='text-[1.5vw] mt-[5vh] text-[#666666]'>See our senior savor their old age</p> 
+               <p className='md:text-[1.5vw] mt-[5vh] text-[#666666]'>See our senior savor their old age</p> 
                 </li>
 
                 <li className='my-[5vh]' >
                 <h2 className='font-bold text-[3vw]'>Our Mission</h2>
-               <p className='text-[1.5vw] mt-[5vh] text-[#666666]'>Enabling our seniors live with dignity and choice</p> 
+               <p className='md:text-[1.5vw] mt-[5vh] text-[#666666]'>Enabling our seniors live with dignity and choice</p> 
                 </li>
                 <li  className='mt-[5vh]'>
                 <h2 className='font-bold text-[3vw]'>Long Term Strategy</h2>
-               <p className='text-[1.3vw] mt-[5vh] text-[#666666] w-[435px]'>We engage the younger generation to achieve a paradigm shift from merely looking after our seniors to catering to their NEEDS (physical, psychological and emotional).</p> 
-               <p className='text-[1.4vw] mt-[5vh] text-[#666666] w-[435px]'>MopCare empowers seniors to savor their old age; live with dignity and choice while engaging the younger generation to imbibe the proper perspective of catering to the needs our seniors rather than merely looking after them to keep them alive.</p> 
+               <p className='md:text-[1.3vw] mt-[5vh] text-[#666666] w-[435px]'>We engage the younger generation to achieve a paradigm shift from merely looking after our seniors to catering to their NEEDS (physical, psychological and emotional).</p> 
+               <p className='md:text-[1.4vw] mt-[5vh] text-[#666666] w-[435px]'>MopCare empowers seniors to savor their old age; live with dignity and choice while engaging the younger generation to imbibe the proper perspective of catering to the needs our seniors rather than merely looking after them to keep them alive.</p> 
                 </li>
              </ul>
              </div>
-             <div>
+             <div className='md:visible hidden'>
               <div className='flex' ><img className='md:w-[250px] m-[10px]' src={Im} alt="" /><img className='md:w-[270px] m-[10px] md:h-[270px] mt-auto' src={Image2} alt="" /></div>
               <div className='flex'><img className='md:w-[164px] m-[10px] md:h-[285px]' src={Image3} alt="" /><img className='md:w-[356px] m-[10px]' src={Image4} alt="" /></div>
              {/* <img src={two} alt="two" /> */}

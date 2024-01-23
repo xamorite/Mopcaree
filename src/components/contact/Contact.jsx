@@ -5,12 +5,12 @@ function Contact() {
   return (
     <div className="mx-auto md:w-[80vw] p-12 ">
       <div className="flex justify-between mx-auto gap-10">
-        <div>
-       <h3 className="text-[#3379C1] font-bold text-[1.3vw]">Contact Us</h3>
-       <h1 className="font-bold text-[3vw]">Get in touch </h1>
-       <p className="text-[#667085] text-[1.5vw]">Our friendly team would love to hear from you.</p>
-       <div className="form my-[8vh] flex flex-col  justify-between gap-6 ">
-         <div className="flex justify-between gap-6">
+        <div className='text-center'>
+       <h3 className="text-[#3379C1] font-bold md:text-[1.3vw]">Contact Us</h3>
+       <h1 className="font-bold md:text-[3vw] text-[4.5vw]">Get in touch </h1>
+       <p className="text-[#667085] md:text-[1.5vw]">Our friendly team would love to hear from you.</p>
+       <div className="form my-[8vh] flex flex-col text-start justify-between gap-6 ">
+         <div className="flex justify-between gap-6 ">
                 <div>
                     <p>First name</p>
                     <input type="text" placeholder="First name " className="p-3 border-[#667085] border-[1px] rounded-md" />
@@ -43,10 +43,10 @@ function Contact() {
        </div>
       </div>
       <div className='text-center'>
-        <h3 className='text-[#3379C1] text-[1.5vw] font-bold'>
+        <h3 className='text-[#3379C1] md:text-[1.5vw] font-bold'>
             Contact us
         </h3>
-        <p className='font-bold text-[2vw]'>
+        <p className='font-bold md:text-[2vw] text-[4vw] '>
         We’d love to hear from you
         </p>
         <p>
@@ -54,21 +54,21 @@ function Contact() {
         </p>
       </div>
 
-      <div className='flex justify-between text-center mt-9'>
-          <div>
-            <img src={Gmail} className='w-[3vw] mx-auto' alt="" />
+      <div className='md:flex md:flex-row flex-col  justify-between text-center mt-9'>
+          <div className='p-6'>
+            <img src={Gmail} className='md:w-[3vw] w-[9vw] mx-auto' alt="" />
             <h4 className='font-bold'>Email</h4>
             <p className='text-[#667085]'>Our friendly team is here to talk</p>
             <p className='text-[#3379C1] font-bold'>mopcareteam@gmail.com</p>
           </div>
-          <div>
-            <img src={Gmail} className='w-[3vw] mx-auto' alt="" />
+          <div className='p-6'>
+            <img src={Gmail} className='md:w-[3vw] w-[9vw] mx-auto' alt="" />
             <h4 className='font-bold'>Office</h4>
             <p className='text-[#667085]'>Come say hello at our office HQ.</p>
             <p className='text-[#3379C1] font-bold'>Kampala Shopping Complex,<br /> Itoku, Abeokuta, Ogun State.</p>
           </div>
-          <div>
-            <img src={Gmail} className='w-[3vw] mx-auto' alt="" />
+          <div className='p-6'>
+            <img src={Gmail} className='md:w-[3vw] w-[9vw] mx-auto' alt="" />
             <h4 className='font-bold'>Phone</h4>
             <p className='text-[#667085]'>Mon-Fri from 8am to 5pm</p>
             <p className='text-[#3379C1] font-bold'>+(234) 803-437-5758</p>
@@ -76,21 +76,21 @@ function Contact() {
         
           
       </div>
-      <div className='flex justify-between mx-auto md:w-[80vw] md:mt-[8vh] h-[15vh]'>
+      <div className='md:flex justify-between mx-auto w-[80vw] md:w-[80vw] md:mt-[8vh]  md:h-[15vh] mt-[5vh]'>
          <div>
-            <h3 className='font-bold text-[1.5vw]'>Join our newsletter</h3>
+            <h3 className='font-bold md:text-[1.5vw] text-[5vw]'>Join our newsletter</h3>
             <br />
             <p className='text-[#667085]'>
                 Stay in touch with us to get latest news and special offers
             </p>
          </div>
-         <div>
-            <input type="text" placeholder='Enter your email' className=' border-2 p-3 w-[20vw] border-[#667085] rounded-md'/>
-             <button className='rounded-md bg-[#3379C1] text-white md:w-[8vw] p-3 mx-[2vw]'>
+         <div className='my-[5vh] '>
+            <input type="text" placeholder='Enter your email' className=' border-2 p-3 w-full md:w-[20vw] border-[#667085] rounded-md'/>
+             <button className='rounded-md bg-[#3379C1] text-white md:w-[8vw] w-full p-3 md:mx-[2vw] mt-[5vh]'>
                 Subscribe
             </button>
          </div>
-        </div> 
+        </div>
     </div>
   )
 }

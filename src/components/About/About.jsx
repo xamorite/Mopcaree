@@ -4,21 +4,21 @@ import Gb from './Gb.png';
 function About() {
   return (
     <div >
-      <div className="text-center">
-        <header className="text-[#3379C1] font-bold text-[1.5vw]">About us</header><br />
-        <h1 className="  font-bold text-[3vw]">About Mopcare</h1>
-        <p className="text-[#667085] text-[1.5vw]">Learn more about what we are doing and the vision behind the organization.</p>
+      <div className="text-center my-[10vh]">
+        <header className="text-[#3379C1] font-semi text-[4vw]  md:text-[1.5vw] ">About us</header><br />
+        <h1 className="  font-bold text-[7vw] md:text-[3vw]">About Mopcare</h1>
+        <p className="text-[#667085] text-[6vw] md:text-[1.5vw]">Learn more about what we are doing and the vision behind the organization.</p>
       </div>
       <div className='md:my-[20vh] flex flex-row-reverse justify-between md:h-[80vh] w-[82.5vw] mx-auto gap-x-[7vw]'>
        <div className='  md:w-[560px]'>
-        <p className='text-[#3379C1] text-[1vw] font-medium'>We’ve helped hundreds of elderly people</p>
+        <p className='text-[#3379C1] md:text-[1vw] font-medium'>We’ve helped hundreds of elderly people</p>
         <ul>
           <li className='mb-[4vh]'>
-            <h2 className='font-semibold text-[3vw]'>
+            <h2 className='font-semibold md:text-[3vw] text-[5.5vw]'>
             We’re only just getting started on our journey
             </h2>
           </li>
-          <li className='mb-[4vh] flex justify-between w-[75%]'>
+          <li className='mb-[4vh] md:flex justify-between w-[75%]'>
             <div>
               <h1 className='text-[5vw] font-medium text-[#3379C1]'>21</h1><br />
               <p className='text-[1.5vw] font-semibold text-[#101828]'>Programs held</p>
@@ -28,7 +28,7 @@ function About() {
               <p className='text-[1.5vw] font-semibold text-[#101828]'>Attendance so far</p>
             </div>
           </li>
-          <li className='mb-[4vh] flex justify-between w-[75%]'>
+          <li className='mb-[4vh] md:flex justify-between w-[75%]'>
             <div>
               <h1 className='text-[5vw] font-medium text-[#3379C1]'>10k</h1><br />
               <p className='text-[1.5vw] font-semibold text-[#101828]'>Consultations</p>
@@ -44,16 +44,16 @@ function About() {
 
 
        <div>
-        <img src={Two} alt="two" /> 
+        <img className='hidden md:visible' src={Two} alt="two" /> 
         </div>
          
 
    </div>
 
 
-     <div className='flex justify-between mx-auto md:w-[80vw]'>
+     <div className='md:flex justify-between mx-auto md:w-[80vw] w-[80vw]'>
         <div><img src={Gb} alt="" /></div>
-        <div className='md:w-[560px] text-[#667085] text-[1.4vw]'>
+        <div className='md:w-[560px] text-[#667085] md:text-[1.4vw]'>
             <h2 className='font-bold text-[3vw] text-start text-black'>Senior Leadership</h2>
             <p>
             Gbolahan Fabiyi is the SENIOR-CARE Strategist and Lead Facilitator at the Mopcare Initiative for Seniors. His drive is to design and execute interventions geared towards addressing social isolation and loneliness amongst the elderly population
@@ -67,7 +67,7 @@ function About() {
         </div>
         
      </div>
-     <div className='md:w-[80vw] mx-auto text-[#667085] text-[1.4vw] '> 
+     <div className='md:w-[80vw] w-[80vw] mx-auto text-[#667085] md:text-[1.4vw] '> 
           <p>
           An active participant in the rehabilitation of victims of drugs and substance abuse through the Positive Youth and Family Life NGO (2018 till date).
           </p><br />
@@ -82,16 +82,16 @@ function About() {
           </p>
         </div>
 
-        <div className='flex justify-between mx-auto md:w-[80vw] md:mt-[8vh] h-[15vh]'>
+        <div className='md:flex justify-between mx-auto w-[80vw] md:w-[80vw] md:mt-[8vh]  md:h-[15vh] mt-[5vh]'>
          <div>
-            <h3 className='font-bold text-[1.5vw]'>Join our newsletter</h3>
+            <h3 className='font-bold md:text-[1.5vw]'>Join our newsletter</h3>
             <br />
             <p className='text-[#667085]'>
                 Stay in touch with us to get latest news and special offers
             </p>
          </div>
-         <div>
-            <input type="text" placeholder='Enter your email' className=' border-2 p-3 w-[20vw] border-[#667085] rounded-md'/>
+         <div className='my-[5vh]'>
+            <input type="text" placeholder='Enter your email' className=' border-2 p-3 md:w-[20vw] border-[#667085] rounded-md'/>
              <button className='rounded-md bg-[#3379C1] text-white md:w-[8vw] p-3 mx-[2vw]'>
                 Subscribe
             </button>
