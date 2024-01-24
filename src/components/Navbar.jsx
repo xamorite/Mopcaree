@@ -31,7 +31,7 @@ function Navbar() {
 </div>
 
       
-        <ul className={` md:flex md:items-center md:pb-0 pd-12 absolute md:static  z-30 backdrop-blur-md bg-[#000000] bg-opacity-[3%] left-0 w-full md:w-auto md:pl-0 px-6 transition-all  duration-[0.3s] ease-in ${open ? 'top-12 h-[100vh] backdrop-blur-md bg-[#000000] bg-opacity-[3%] ' : 'top-[-490px]'}`}>
+        <ul className={` md:flex md:items-center md:pb-0 pd-12 absolute md:static bg-white md:bg-[#000000] md:bg-opacity-0 md:z-auto z-[1] left-0 w-full md:w-auto md:pl-0 px-6 transition-all duration-[0.3s] ease-in ${open ? 'top-11 pb-5' : 'top-[-490px]'}`}>
           
 
         {

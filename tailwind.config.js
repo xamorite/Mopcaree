@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bgi': "url('./src/assets/BG.png')",
+        'bgi': "url('./src/components/home/BG.png')",
         'footer-texture': "url('/img/footer-texture.png')",
       }
     },
