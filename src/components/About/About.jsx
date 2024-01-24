@@ -9,8 +9,8 @@ function About() {
         <h1 className="  font-bold text-[7vw] md:text-[3vw]">About Mopcare</h1>
         <p className="text-[#667085] text-[6vw] md:text-[1.5vw]">Learn more about what we are doing and the vision behind the organization.</p>
       </div>
-      <div className='md:my-[20vh] flex flex-row-reverse justify-between md:h-[80vh] w-[82.5vw] mx-auto gap-x-[7vw]'>
-       <div className='  md:w-[560px]'>
+      <div className='md:my-[20vh] flex flex-row-reverse justify-between md:h-[80vh] w-[82.5vw] mx-auto md:gap-x-[7vw]'>
+       <div className='  md:w-[560px]  '>
         <p className='text-[#3379C1] md:text-[1vw] font-medium text-[4vw]'>We’ve helped hundreds of elderly people</p>
         <ul>
           <li className='mb-[4vh]'>
