@@ -5,10 +5,10 @@ function Contact() {
   return (
     <div className="mx-auto md:w-[80vw] w-[80vw] ">
       <div className="flex md:flex-row flex-col justify-between mx-auto gap-10 ">
-        <div className='text-center '>
-          <h3 className="text-[#3379C1] font-bold md:text-[1.3vw]">Contact Us</h3>
-          <h1 className="font-bold md:text-[3vw] text-[4.5vw]">Get in touch </h1>
-          <p className="text-[#667085] md:text-[1.5vw]">Our friendly team would love to hear from you.</p>
+        <div className='md:text-center mt-[5vh] '>
+          <h3 className="text-[#3379C1] font-bold md:text-[1.3vw] ">Contact Us</h3>
+          <h1 className="font-bold md:text-[3vw] text-[6vw] ">Get in touch </h1>
+          <p className="text-[#667085] md:text-[1.5vw] ">Our friendly team would love to hear from you.</p>
 
 
 
