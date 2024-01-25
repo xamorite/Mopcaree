@@ -13,7 +13,7 @@ import Ellipse6 from './Ellipseeeeee.png';
 function Home() {
   return (
     <div>
-      <div  className={`md:self-center bg-slate-400 w-full bg-cover bg-no-repeat md:h-[100vh] bg-bgm  md:bg-bgi text-center pb-[10vh]`}>
+      <div  className={`md:self-center bg-slate-400 w-full bg-cover bg-no-repeat md:h-[100vh] bg-bgm   md:bg-bgi text-center pb-[10vh]`}>
     <div className='md:w-[70vw] pt-[20vh] mx-auto'>
     <h1 className='md:text-[5vw] text-[8vw] self-center text-white  font-bold mb-[4vh] '>
       Welcome to Mopcare
@@ -102,7 +102,7 @@ function Home() {
            <button className='text-white bg-[#3379C1] mt-[3vh] rounded-[8px] py-[12px] px-[20px]'> Support a Senior</button>
          </div>
 
-         <div className='md:w-[90vw] bg-[#3379C1] md:h-[420px] mx-auto md:rounded-[2vw] flex justify-between md:p-[3%] p-[5%]'>
+         <div className='md:w-[90vw] bg-[#3379C1] md:h-[420px] mx-auto md:rounded-[2vw] flex justify-between md:p-[3%] py-[15%] px-[5%]'>
           <div className='md:w-[15vw] md:h-[420px] relative  flex-col justify-between '>
           <img src={Ellipse1} alt="" className=' absolute left-0 rounded-full ms-0 ' />
           <img src={Ellipse2} alt="" className=' absolute right-0 bottom-[35vh] rounded-full ms-auto ' />

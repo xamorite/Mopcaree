@@ -43,7 +43,7 @@ function Navbar() {
               )
             }
             <li className='w-full'>
-              <button className=' bg-[#3379C1] rounded-md p-3 w-full text-white font-semibold'>My Account</button>
+              <button className=' bg-[#3379C1] rounded-md p-3 w-full text-white font-semibold md:ms-[2vw]'>My Account</button>
             </li>
 
               
