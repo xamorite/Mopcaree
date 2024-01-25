@@ -114,7 +114,7 @@ function Home() {
                 Every New Courses
             </h1>
             <p className='text-[#ffffff] opacity-[70%] md:my-[6vh]'>20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
-            <input placeholder='enter your email' type="email" className=' placeholder:text-white bg-[#ffffff] bg-opacity-[20%] me-0 px-[4vw] md:py-[3vh] py-[1.5vh] rounded-l-[1vw] md:w-auto w-[40vw]' /> <button className='text-white bg-[#73B834] ms-0 px-[4vw] py-[1.5vh] md:py-[3vh] rounded-r-[1vw] md:w-auto w-[20vw]'>Subscribe</button>
+            <input placeholder='enter your email' type="email" className=' placeholder:text-white bg-[#ffffff] bg-opacity-[20%] me-0 px-[4vw] md:py-[3vh] py-[1.5vh] rounded-l-[1vw] md:w-auto w-[40vw]' /> <button className='text-white bg-[#73B834] ms-0 px-[4vw] py-[1.5vh] md:py-[3vh] rounded-r-[1vw] md:w-auto w-[25vw]'>Subscribe</button>
           </div>
           <div className='md:w-[20vw] relative md:h-[420px]'> 
             <img src={Ellipse4} className='rounded-full absolute right-0' alt="" />
