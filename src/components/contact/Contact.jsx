@@ -35,7 +35,7 @@ function Contact() {
             </div>
             <div className="w-full " >
               <p>Message</p>
-              <textarea className="p-3 border-[#667085] border-[1px] rounded-md w-full md:h-[25vh]" name="" id="" cols="30" rows="10"></textarea>
+              <textarea className="p-3 border-[#667085] border-[1px] rounded-md w-full md:h-[25vh] h-[15vh]" name="" id="" cols="30" rows="10"></textarea>
             </div>
             <button className="w-full p-3 bg-[#3379C1] rounded-md text-white">
               send message
