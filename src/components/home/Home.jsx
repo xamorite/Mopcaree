@@ -15,13 +15,13 @@ function Home() {
     <div>
       <div  className={`md:self-center bg-slate-400 w-full bg-cover bg-no-repeat h-[100vh]  bg-bgi text-center `}>
     <div className='md:w-[70vw] pt-[20vh] mx-auto'>
-    <h1 className='md:text-[5vw] text-[8vw] self-center text-white  font-bold mb-[10vh] '>
+    <h1 className='md:text-[5vw] text-[8vw] self-center text-white  font-bold mb-[4vh] '>
       Welcome to Mopcare
     </h1>
-    <p className='text-white md:text-[1.7vw] mx-auto text-[4vw] mb-[10vh] md:w-auto w-[80vw]'>
+    <p className='text-white md:text-[1.7vw] mx-auto text-[4vw] mb-[4vh] md:w-auto w-[80vw]'>
     We engage and motivatethe younger generation towards paying more attention to seniors psychological and emotional needs, in addition to their physical needs.
     </p>
-    <button className='m-2 py-3 px-5 bg-white rounded-[1.5vh] md:text-[1.5vw] text-[#344054]'>Learn More</button><button className='m-2 py-3 px-5 bg-[#3379C1] rounded-[1.5vh] md:text-[1.5vw] text-white'>Services</button>
+    <button className='m-2 py-3 px-5 bg-white md:rounded-[1.5vh] md:text-[1.5vw] text-[#344054]'>Learn More</button><button className='m-2 py-3 px-5 bg-[#3379C1] md:rounded-[1.5vh] md:text-[1.5vw] text-white'>Services</button>
     </div>
    </div>
       <div className='mx-auto text-center w-[80vw] mt-[10vh]'>
@@ -114,7 +114,7 @@ function Home() {
                 Every New Courses
             </h1>
             <p className='text-[#ffffff] opacity-[70%] md:my-[6vh]'>20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
-            <input placeholder='enter your email' type="email" className=' placeholder:text-white bg-[#ffffff] bg-opacity-[20%] me-0 px-[4vw] md:py-[3vh] py-[1.5vh] rounded-l-[1vw]' /> <button className='text-white bg-[#73B834] ms-0 px-[4vw] py-[1.5vh] md:py-[3vh] rounded-r-[1vw]'>Subscribe</button>
+            <input placeholder='enter your email' type="email" className=' placeholder:text-white bg-[#ffffff] bg-opacity-[20%] me-0 px-[4vw] md:py-[3vh] py-[1.5vh] rounded-l-[1vw] md:w-auto w-[40vw]' /> <button className='text-white bg-[#73B834] ms-0 px-[4vw] py-[1.5vh] md:py-[3vh] rounded-r-[1vw] md:w-auto w-[20vw]'>Subscribe</button>
           </div>
           <div className='md:w-[20vw] relative md:h-[420px]'> 
             <img src={Ellipse4} className='rounded-full absolute right-0' alt="" />
