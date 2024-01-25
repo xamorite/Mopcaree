@@ -13,7 +13,7 @@ import Ellipse6 from './Ellipseeeeee.png';
 function Home() {
   return (
     <div>
-      <div  className={`md:self-center bg-slate-400 w-full bg-cover bg-no-repeat md:h-[100vh]  bg-bgi text-center pb-[10vh]`}>
+      <div  className={`md:self-center bg-slate-400 w-full bg-cover bg-no-repeat md:h-[100vh] bg-bgm  md:bg-bgi text-center pb-[10vh]`}>
     <div className='md:w-[70vw] pt-[20vh] mx-auto'>
     <h1 className='md:text-[5vw] text-[8vw] self-center text-white  font-bold mb-[4vh] '>
       Welcome to Mopcare
