@@ -14,11 +14,11 @@ function Home() {
   return (
     <div>
       <div  className={`md:self-center bg-slate-400 w-full bg-cover bg-no-repeat h-[100vh]  bg-bgi text-center `}>
-    <div className='md:w-[70vw] pt-[40vh] mx-auto'>
-    <h1 className='md:text-[5vw] text-[8vw] self-center text-white  font-bold '>
+    <div className='md:w-[70vw] pt-[20vh] mx-auto'>
+    <h1 className='md:text-[5vw] text-[8vw] self-center text-white  font-bold mb-[10vh] '>
       Welcome to Mopcare
     </h1>
-    <p className='text-white md:text-[1.7vw] text-[4vw] md:w-auto w-[80vw]'>
+    <p className='text-white md:text-[1.7vw] mx-auto text-[4vw] mb-[10vh] md:w-auto w-[80vw]'>
     We engage and motivatethe younger generation towards paying more attention to seniors psychological and emotional needs, in addition to their physical needs.
     </p>
     <button className='m-2 py-3 px-5 bg-white rounded-[1.5vh] md:text-[1.5vw] text-[#344054]'>Learn More</button><button className='m-2 py-3 px-5 bg-[#3379C1] rounded-[1.5vh] md:text-[1.5vw] text-white'>Services</button>
@@ -36,7 +36,7 @@ function Home() {
    <div className='md:my-[20vh] my-[10vh] flex flex-col-reverse md:flex md:flex-row justify-between md:h-[80vh] w-[82.5vw] mx-auto'>
        <div className='  md:w-[560px] text-center md:text-start'>
       
-        <ul className='w-[35vw] text-start ms-[0vw] md:w-auto md:ms-0'>
+        <ul className=' text-start ms-[0vw] md:w-auto md:ms-0 mt-[10vh]'>
           
           <li className='mb-[4vh] md:flex justify-between w-[75%]'>
             <div>
