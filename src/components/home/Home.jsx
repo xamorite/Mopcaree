@@ -18,7 +18,7 @@ function Home() {
     <h1 className='md:text-[5vw] text-[8vw] self-center text-white  font-bold '>
       Welcome to Mopcare
     </h1>
-    <p className='text-white md:text-[1.7vw] text-[4vw]'>
+    <p className='text-white md:text-[1.7vw] text-[4vw] md:w-auto w-[80vw]'>
     We engage and motivatethe younger generation towards paying more attention to seniors psychological and emotional needs, in addition to their physical needs.
     </p>
     <button className='m-2 py-3 px-5 bg-white rounded-[1.5vh] md:text-[1.5vw] text-[#344054]'>Learn More</button><button className='m-2 py-3 px-5 bg-[#3379C1] rounded-[1.5vh] md:text-[1.5vw] text-white'>Services</button>
