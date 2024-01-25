@@ -83,8 +83,8 @@ function Home() {
                 </li>
                 <li  className='mt-[5vh]'>
                 <h2 className='font-bold text-[6vw]   md:text-[3vw] '>Long Term Strategy</h2>
-               <p className='md:text-[1.3vw] mt-[5vh] text-[#666666] w-[435px] text-start md:text-center'>We engage the younger generation to achieve a paradigm shift from merely looking after our seniors to catering to their NEEDS (physical, psychological and emotional).</p> 
-               <p className='md:text-[1.4vw] mt-[5vh] text-[#666666] w-[435px] text-start md:text-center'>MopCare empowers seniors to savor their old age; live with dignity and choice while engaging the younger generation to imbibe the proper perspective of catering to the needs our seniors rather than merely looking after them to keep them alive.</p> 
+               <p className='md:text-[1.3vw] mt-[5vh] text-[#666666] md:w-[435px] text-start md:text-center mx-auto w-[80vw] '>We engage the younger generation to achieve a paradigm shift from merely looking after our seniors to catering to their NEEDS (physical, psychological and emotional).</p> 
+               <p className='md:text-[1.4vw] mt-[5vh] text-[#666666] md:w-[435px] text-start md:text-center mx-auto w-[80vw]'>MopCare empowers seniors to savor their old age; live with dignity and choice while engaging the younger generation to imbibe the proper perspective of catering to the needs our seniors rather than merely looking after them to keep them alive.</p> 
                 </li>
              </ul>
              </div>
