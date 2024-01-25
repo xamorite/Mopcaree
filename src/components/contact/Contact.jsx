@@ -4,7 +4,7 @@ import Gmail from './email.png'
 function Contact() {
   return (
     <div className="mx-auto md:w-[80vw] w-[80vw] ">
-      <div className="flex justify-between mx-auto gap-10 ">
+      <div className="flex md:flex-row flex-col justify-between mx-auto gap-10 ">
         <div className='text-center '>
           <h3 className="text-[#3379C1] font-bold md:text-[1.3vw]">Contact Us</h3>
           <h1 className="font-bold md:text-[3vw] text-[4.5vw]">Get in touch </h1>
@@ -45,11 +45,11 @@ function Contact() {
 
 
         </div>
-        <div className='hidden'>
-          <img src={Granny} />
+        <div>
+          <img className='mx-auto md:rounded-none md:h-auto h-[40vh] w-full rounded-[2rem]' src={Granny} />
         </div>
       </div>
-      <div className='text-center'>
+      <div className='text-center mt-[10vh]'>
         <h3 className='text-[#3379C1] md:text-[1.5vw] font-bold'>
           Contact us
         </h3>
