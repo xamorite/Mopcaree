@@ -2,8 +2,8 @@ import first from './ser1.png';
 import second from './ser2.png';
 import third from './ser3.png';
 import fourth from './ser4.png';
-import fifth from './ser5.png';
-import sixth from './ser6.png';
+// import fifth from './ser5.png';
+// import sixth from './ser6.png';
 
 export default function Service() {
   return (
