@@ -32,7 +32,7 @@ function Footer() {
                    <li className='text-[#98A2B3] md:text-[14px]'>Social</li>
                    <li>Twitter</li>
                    <li>LinkedIn</li>
-                   <li>Faceook</li>
+                   <li>Facebook</li>
                    <li>Youtube</li>
                    <li>Instagram</li></ul></div>
         </div>

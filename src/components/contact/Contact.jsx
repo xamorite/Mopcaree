@@ -11,8 +11,6 @@ function Contact() {
           <p className="text-[#667085] md:text-[1.5vw] ">Our friendly team would love to hear from you.</p>
 
 
-
-
           <div className="form my-[8vh] flex flex-col text-start justify-between gap-6  mx-auto">
             <div className="grid md:grid-cols-12  md:gap-6 gap-3 ">
               <div className='w-full md:col-span-6 '>
