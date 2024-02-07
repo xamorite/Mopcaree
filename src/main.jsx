@@ -7,6 +7,7 @@ import Layout from './Layout'
 import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Service from './components/services/Service'
+import Courses from './components/Courses/Courses'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
       <Route path='about' element={<About />} />
       <Route path='service' element={<Service/>} />
       <Route path='contact' element={<Contact/>} />
+      <Route path='courses' element={<Courses/>} />
     </Route>
   ),
 );

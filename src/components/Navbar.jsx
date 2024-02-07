@@ -14,6 +14,7 @@ function Navbar() {
     { name: "Services", link: "./Service" },
     { name: "About", link: "./About" },
     { name: "Contact", link: "./Contact" },
+    {name: "Courses", link: "./Courses" },
     // { name: "Contact", link: "./Contact" },
   ];
 
