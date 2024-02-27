@@ -19,17 +19,17 @@ function Contact() {
               </div>
               <div className='w-full md:col-span-6'>
                 <p>Last name</p>
-                <input type="text" placeholder="Last name " className="p-3 border-[#667085] border-[1px] rounded-md w-full" />
+                <input type="text" placeholder="Last name " className="inp" />
               </div>
             </div>
 
             <div className="w-full " >
               <p>Email</p>
-              <input type="email" placeholder="You@gmail.com " className="p-3 border-[#667085] border-[1px] rounded-md w-full" />
+              <input type="email" placeholder="You@gmail.com " className="inp" />
             </div>
             <div className="w-full " >
               <p>Phone number</p>
-              <input type="email" placeholder="+234 9000000000" className="p-3 border-[#667085] border-[1px] rounded-md w-full" />
+              <input type="email" placeholder="+234 9000000000" className="inp" />
             </div>
             <div className="w-full " >
               <p>Message</p>

@@ -10,8 +10,9 @@ export default {
         'bgi': "url('./src/components/home/BG.png')",
         'bgm': "url('./src/components/home/BGmobile.png')",
         'footer-texture': "url('/img/footer-texture.png')",
-      }
+      },
     },
+   
   },
   plugins: [],
 }

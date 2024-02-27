@@ -8,6 +8,7 @@ import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Service from './components/services/Service'
 import Courses from './components/Courses/Courses'
+import Signup from './components/Signup'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route path='service' element={<Service/>} />
       <Route path='contact' element={<Contact/>} />
       <Route path='courses' element={<Courses/>} />
+      <Route path='signup' element={<Signup/>} />
     </Route>
   ),
 );

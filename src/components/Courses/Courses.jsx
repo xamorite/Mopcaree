@@ -3,10 +3,10 @@ import BG from './BG.png';
 function Courses() {
     return (
         <div className="mx-auto w-[80vw]">
-    <div className="text-center my-[10vh] w-[90vw] mx-auto">
+    <div className="text-center my-[10vh]  mx-auto">
         <header className="text-[#3379C1] font-semi text-[4vw]  md:text-[1.5vw] ">Courses</header><br />
-        <h1 className="  font-bold text-[7vw] md:text-[5vw]">Intensive care for adults</h1>
-        <p className="text-[#667085] text-[6vw] md:text-[1.5vw]">Check out our industry standard programs for adults</p>
+        <h1 className="  big">Intensive care for adults</h1>
+        <p className="text">Check out our industry standard programs for adults</p>
       </div>
             <div className="w-[80vw] mt-[20vh] ">
                 <div className="flex md:flex-row  justify-between flex-col">
