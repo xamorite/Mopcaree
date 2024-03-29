@@ -24,7 +24,7 @@ function Navbar() {
   let [open, setOpen] = useState(false)
 
   return (
-    <div className='w-full justify-between flex px-5 lg:px-10 py-2  backdrop-blur-md bg-[#000000] bg-opacity-[3%] top-0 z-30 sticky'>
+    <div className='w-full justify-between flex px-5 lg:px-10  py-2  backdrop-blur-md bg-[#000000] bg-opacity-[3%] top-0 z-30 sticky'>
       <Link to={Home}><img src={Mop} alt="" /></Link>
        <div className='flex justify-between'>
        <div onClick={() => setOpen(!open)} className='flex items-center text-3xl  cursor-pointer md:hidden'>
